@@ -1,0 +1,451 @@
+.row{
+    text-align: right;
+}
+.head{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    height: 80vh;
+    padding-top: 27px;
+}
+.addads{
+    float: right;
+}
+.user{
+    color: #fff;
+}
+.addads p{
+    display: inline;
+    margin-right: 10px;
+    padding: 11px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+}
+.txtimg p{
+    color: #fff;
+    padding-top: 4rem;
+    font-size: 90px;
+    font-weight: bolder;
+    padding-right: 5%;
+}
+.txtimg img {
+    margin-top: -3.3%;
+}
+    .intro-wrap {
+        margin-top: -2%;
+        background-image: url(../img/Rectangle\ 9.png);
+        padding: 26px 35px 10px;
+        z-index: 2;
+        background-size: cover;
+    } 
+    .intro input,
+    .intro select
+    {
+        width: 100%;
+        padding: 7px 62px 7px 0;
+        margin-bottom: 4%;
+    }
+        .intro a{
+        padding: 7px 47px;
+        color: #000;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    margin: 38%;
+}    .intro input , .intro a , .intro select {
+        border-radius: 20px;
+    } 
+    @media(max-width:1250px){
+        .intro a {
+            padding: 7px 23px;
+        }
+    }
+    .drop{
+        margin-top: 3%;
+    }
+    .drop i{
+        text-align: center;
+        padding: 33px;
+        border-radius: 50px;
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 30px;
+        margin-right: 20%;
+    }
+    .drop .fa-car{
+        background-image: url(../img/Rectangle\ 9.png);
+    }
+    .dropdown button{
+        width: 100%;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    @media(max-width:767px){
+        .drop i{
+            margin-right: 38%;
+    margin-top: 6%;
+        }
+    }
+    .drop .icofont-ui-touch-phone , .drop .fa-paw{
+        background-image: url(../img/Rectangle\ 12@2x.png);
+    }
+    .drop .fa-building , .drop .fa-shirtsinbulk, .drop .fa-laptop{
+        background-image: url(../img/Rectangle\ 9.png);
+    }
+    .site-section h4 {
+        color: rgb(144 0 0);
+        text-align: center;
+        position: relative;
+        padding-top: 3rem;
+        margin-right: 4%;
+        text-align: right;
+    }
+    .site-section h4::before {
+        content: "";
+        border-left: 5px solid #FB8B5E;
+        width: 14%;
+        height: 2px;
+        margin: 0;
+        margin-bottom: 2rem;
+        display: inline;
+    }
+    .cards i{
+        color: #f00;
+        margin-left: 24px;
+        margin-bottom: 24px;
+        }
+    .card-text{
+        font-size: 28px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .cards .morecard{
+        color: #fff;
+        padding: 7px 50px;
+        text-decoration: none;
+        background-image: url(../img/Rectangle\ 9.png);
+        border-radius: 20px;
+        margin-top: 2%;
+        margin-right: 43%;
+        }
+        .subscribe{
+            background-image: url(../img/Rectangle\ 9.png);
+            margin-top: 20px; 
+            padding-bottom: 3%;
+        }
+        .subscribe h2{
+            color: #fff;
+            padding-top: 5%;
+        }
+        .subscribe input{
+            border-radius: 30px;
+            width: 87%;
+            padding: 15px 62px 15px 0;
+            margin-bottom: 10%;
+            margin-top: 7%;
+        }
+
+        .subscribe a{
+            background-color: #fff;
+            padding: 14px 73px;
+            text-decoration: none;
+            border-radius: 20px;
+            margin-top: 4%;
+            margin-right: 30%;
+            color: orange;
+                }
+                @media(max-width : 990px){
+                    .subscribe a {
+                        margin: auto;
+                    }
+                }
+    footer{
+        background-image: url(../img/Rectangle\ 12@2x.png);
+    }
+    footer p{
+        color: #fff;
+    }
+    footer .txtimg p.adress{
+        padding: 0;
+        font-size: 56px;
+        font-weight: 700;
+        padding-top: 8%;
+    }
+    footer .txtimg p img{
+        margin: auto;
+        display: block;
+        margin-top: -2%;
+        margin-right: 33%;
+        width: 20%;
+    }
+    @media(max-width : 767px){
+        footer .txtimg p img {
+            width: auto;
+            margin-right: 38%;
+        }
+            }
+            .text {
+                font-size: 17px;
+                line-height: 1.7;
+            }
+            .list{
+                    padding-top: 43px;
+            }
+        .list p{
+
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 2;
+                }
+        .social-footer{
+            padding-top: 43px;
+            text-align: center;
+        }
+        .last .ico{
+            text-align: center;
+        }
+        .social-footer i{
+            color: #fff;
+            font-size: 25px;
+                }
+        .last {
+            padding-top: 43px;  
+ 
+        }
+        .last i{
+            color: orange;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 16px;
+            margin: 23px 0 ;
+            font-size: 20px;
+                }
+    .body{
+        background-image: url(../img/Rectangle\ 31.png);
+    }
+    .log{
+        margin: 51px 0;
+
+    }
+    .log input {
+        width: 100%;
+        border-radius: 20px;
+        background-image: url(../img/Rectangle\ 12.png);
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .br-50{
+        padding: 8px 9px;
+    }
+    .form-control{
+        height: 100%;
+    }
+    .log form {
+        padding: 40px 14px 0px;
+        }
+        .pass form{
+            padding: 100px 14px 0px;
+        }
+    ::placeholder{
+        color: #fff;
+    }
+    .enter{
+        padding: 8px 74px;
+        border-radius: 30px;
+        background-image: url(../img/Rectangle\ 12.png);
+        color: #fff;
+        margin: 0 30%;
+        }
+        .enter:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+        .forget{
+            color: #CF455C;
+        }
+        .forget:hover{
+            color: #CF455C;
+        }
+        .creat {
+            color: #CF455C;
+            float: left;
+        }
+        .log img {
+            background-image: url(../img/Rectangle\ 51.png);
+            padding: 100px 64px;
+                }
+                .pl::before{
+                    content: "";
+                    padding: 0px 10px;
+                    border: .1px solid #E7675C;
+                    border-radius: 100%;
+                    background: #E7675C;
+            } 
+        
+     .car_in_details {
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+        .car_in_details h2{
+            font-family: 'Cairo', sans-serif;
+            padding-bottom: 2%;
+        }
+     .car_in_details span{
+        color: #E7675C;
+        font-size: 18px;
+        }
+        .car_in_details .car {
+            position: relative;
+        }
+        .car_in_details .car .over {
+            position: absolute;
+             top: 0; 
+            left: 0; 
+            bottom: 0; 
+            right: 0; 
+            width: 100%;
+            height: 100%;
+            line-height: 232px;
+            color: #FFF;
+            text-align: center;
+            background-color: rgba(0, 0, 0, .5);
+            display: none;
+        }
+        .car_in_details .car img {
+            width: 100%;
+        }
+       .car_in_details .car:hover .over
+{
+    display: block
+}
+.sp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sp .col-md-3 i{
+    font-size: 30px;
+}
+.sp .col-md-3 p{
+
+}
+.sp .col-md-3 .two{
+    color:  #CF455C;
+}
+.sp .col-md-3 .one{
+    color: #E7675C;
+}
+.detailscar h3 {
+color: #CF455C;
+}
+.detailscar p{
+    border-radius: 20px;
+    padding: 8px 26px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.detailscar textarea{
+    margin-bottom: 20px;
+}
+.car_in_details a{
+    color: #fff;
+    padding: 10px 107px!important;
+    padding: 7px 50px;
+    text-decoration: none;
+    background-color: #C74359;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 30%;
+}
+.car_in_details .col-md-3 a{
+    color: #fff;
+    padding: 7px 50px !important;
+    text-decoration: none;
+    background-color: #C74359;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 43%;
+
+}
+.price{
+    border-radius: 30px;
+    padding: 5px 0;
+    font-size: 38px;
+    font-weight: 400;
+    width: 14rem;
+    margin-bottom: 15%;
+    color: #CF455C;
+    margin-top: 51px;
+    margin-right: 33% !important;
+}
+.send{
+    background-color: #C74359;
+    margin-right: 20% !important;
+    padding: 7px 50px !important;
+}
+.call{
+    background-color: #E7675C!important;
+    margin-right: 20% !important;
+    padding: 7px 72px !important;
+}
+@media(max-width: 1006px){
+    .send{
+        padding: 7px 16% !important;
+    }
+}
+@media(max-width:767px){
+    .send{
+        padding: 7px 50px !important;
+    }
+}
+.mohamed{
+    display: inline;
+    margin-right: 10px;
+    padding: 11px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    color: #E7675C;
+}
+.m-20{
+    margin-top: 20px;
+}
+.save {
+    background-color: #525050;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 15%;
+    padding: 10% 5%;
+}
+.pagination{
+    margin-right: 38%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+.pagination .page-item{
+    margin-right: 1%;
+}
+.pagination .page-item .page-link{
+    color: #000;
+    border-radius: 10px;
+    background-color: #CF455C !important;
+    padding: 9px 14px;
+    margin: auto;
+
+}
+.br-10{
+    border-radius: 25px;
+    padding: 10px;
+}
+.add h5 , label{
+color: #FB8B5E;
+}
+.add{
+    text-align: center;
+    padding-bottom: 20px;   
+}
+input[type="checkbox"] {
+    background: #990000;    
+}
